@@ -1,4 +1,4 @@
-# LinkedIn_AIHawk
+#Jeremiah's AI Job Applier
 
 ## Table of Contents
 
@@ -17,15 +17,15 @@
 
 ## Introduction
 
-LinkedIn_AIHawk is a cutting-edge, automated tool designed to revolutionize the job search and application process on LinkedIn. In today's fiercely competitive job market, where opportunities can vanish in the blink of an eye, this program offers job seekers a significant advantage. By leveraging the power of automation and artificial intelligence, LinkedIn_AIHawk enables users to apply to a vast number of relevant positions efficiently and in a personalized manner, maximizing their chances of landing their dream job.
+Jeremiah's AI Job Applier is a cutting-edge, automated tool designed to revolutionize the job search and application process on LinkedIn. In today's fiercely competitive job market, where opportunities can vanish in the blink of an eye, this program offers job seekers a significant advantage. By leveraging the power of automation and artificial intelligence, Jeremiah's AI Job Applier enables users to apply to a vast number of relevant positions efficiently and in a personalized manner, maximizing their chances of landing their dream job.
 
 ### The Challenge of Modern Job Hunting
 
 In the digital age, the job search landscape has undergone a dramatic transformation. While online platforms like LinkedIn have opened up a world of opportunities, they have also intensified competition. Job seekers often find themselves spending countless hours scrolling through listings, tailoring applications, and repetitively filling out forms. This process can be not only time-consuming but also emotionally draining, leading to job search fatigue and missed opportunities.
 
-### Enter LinkedIn_AIHawk: Your Personal Job Search Assistant
+### Enter Jeremiah's AI Job Applier: Your Personal Job Search Assistant
 
-LinkedIn_AIHawk steps in as a game-changing solution to these challenges. It's not just a tool; it's your tireless, 24/7 job search partner. By automating the most time-consuming aspects of the job search process, it allows you to focus on what truly matters - preparing for interviews and developing your professional skills.
+Jeremiah's AI Job Applier steps in as a game-changing solution to these challenges. It's not just a tool; it's your tireless, 24/7 job search partner. By automating the most time-consuming aspects of the job search process, it allows you to focus on what truly matters - preparing for interviews and developing your professional skills.
 
 ## Features
 
@@ -80,7 +80,7 @@ LinkedIn_AIHawk steps in as a game-changing solution to these challenges. It's n
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/feder-cr/LinkedIn_AIHawk_automatic_job_application
+   git clone https://github.com/Jeremiah004/linkedin_bot
    cd LinkedIn_AIHawk_automatic_job_application
    ```
 
@@ -91,7 +91,7 @@ LinkedIn_AIHawk steps in as a game-changing solution to these challenges. It's n
 
 ## Configuration
 
-LinkedIn_AIHawk relies on three main configuration files:
+Jeremiah's AI Job Applier relies on three main configuration files:
 
 ### 1. secrets.yaml
 
@@ -130,7 +130,7 @@ Contains your resume information in a structured format. Fill it out with your p
 
 2. **Run the Bot:**
 
-   LinkedIn_AIHawk offers flexibility in how it handles your pdf resume:
+   Jeremiah's AI Job Applier offers flexibility in how it handles your pdf resume:
 
 - **Dynamic Resume Generation:**
   If you don't use the `--resume` option, the bot will automatically generate a unique resume for each application. This feature uses the information from your `plain_text_resume.yaml` file and tailors it to each specific job application, potentially increasing your chances of success by customizing your resume for each position.
@@ -155,13 +155,13 @@ For detailed information on each component and their respective roles, please re
 
 ## Conclusion
 
-LinkedIn_AIHawk provides a significant advantage in the modern job market by automating and enhancing the job application process. With features like dynamic resume generation and AI-powered personalization, it offers unparalleled flexibility and efficiency. Whether you're a job seeker aiming to maximize your chances of landing a job, a recruiter looking to streamline application submissions, or a career advisor seeking to offer better services, LinkedIn_AIHawk is an invaluable resource. By leveraging cutting-edge automation and artificial intelligence, this tool not only saves time but also significantly increases the effectiveness and quality of job applications in today's competitive landscape.
+Jeremiah's AI Job Applier provides a significant advantage in the modern job market by automating and enhancing the job application process. With features like dynamic resume generation and AI-powered personalization, it offers unparalleled flexibility and efficiency. Whether you're a job seeker aiming to maximize your chances of landing a job, a recruiter looking to streamline application submissions, or a career advisor seeking to offer better services, LinkedIn_AIHawk is an invaluable resource. By leveraging cutting-edge automation and artificial intelligence, this tool not only saves time but also significantly increases the effectiveness and quality of job applications in today's competitive landscape.
 
 ## Contributors
 
-- [feder-cr](https://github.com/feder-cr/) - Creator and Maintainer
+- [Jeremiah](https://github.com/Jeremiah004/) - Creator and Maintainer
 
-LinkedIn_AIHawk is still in beta, and your feedback, suggestions, and contributions are highly valued. Feel free to open issues, suggest enhancements, or submit pull requests to help improve the project. Let's work together to make LinkedIn_AIHawk an even more powerful tool for job seekers worldwide.
+Jeremiah's AI Job Applier is still in beta, and your feedback, suggestions, and contributions are highly valued. Feel free to open issues, suggest enhancements, or submit pull requests to help improve the project. Let's work together to make Jeremiah's AI Job Applier an even more powerful tool for job seekers worldwide.
 
 ## Credits
 
@@ -176,4 +176,4 @@ LinkedIn_AIHawk is still in beta, and your feedback, suggestions, and contributi
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Disclaimer
-LinkedIn_AIHawk is developed for educational purposes only. The creator does not assume any responsibility for its use. Users should ensure they comply with LinkedIn's terms of service, any applicable laws and regulations, and ethical considerations when using this tool. The use of automated tools for job applications may have implications on user accounts, and caution is advised.
+Jeremiah's AI Job Applier is developed for educational purposes only. The creator does not assume any responsibility for its use. Users should ensure they comply with LinkedIn's terms of service, any applicable laws and regulations, and ethical considerations when using this tool. The use of automated tools for job applications may have implications on user accounts, and caution is advised.

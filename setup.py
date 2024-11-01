@@ -1,14 +1,20 @@
-from selenium import webdriver
-from selenium.webdriver.chrome.service import Service
-from webdriver_manager.chrome import ChromeDriverManager
+from langchain_huggingface.llms import HuggingFacePipeline
 
-# Initialize ChromeDriver
-service = Service(ChromeDriverManager().install())
-options = webdriver.ChromeOptions()
-# Add options here if needed, e.g., options.add_argument('--headless')
-driver = webdriver.Chrome(service=service, options=options)
+hf = HuggingFacePipeline.from_model_id(
+    model_id="gpt2",
+    task="text-generation",
+    pipeline_kwargs={"max_new_tokens": 10},
+)
 
-# Example usage
-driver.get("http://www.example.com")
-print(driver.title)
-driver.quit()
+from langchain_core.prompts import PromptTemplate
+
+template = """Question: {question}
+
+Answer: Let's think step by step."""
+prompt = PromptTemplate.from_template(template)
+
+chain = prompt | hf
+
+question = "What is electroencephalography?"
+
+print(chain.invoke({"question": question}))
