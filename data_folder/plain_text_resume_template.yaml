@@ -1,0 +1,60 @@
+personalDetails:
+  name: "Okolo Jeremiah"
+  email: "your_email@example.com"
+  phone: "+2348101838860"
+  linkedIn: "https://www.linkedin.com/in/okolo-jeremiah/"
+  github: "https://github.com/yourgithubusername"
+
+education:
+  - degree: "Bachelor of Science in Radiology"
+    institution: "University of Example"
+    startDate: "September 2015"
+    endDate: "June 2019"
+    additionalInfo: "Conducted research on the use and maintenance of radiology equipment."
+
+workExperience:
+  - jobTitle: "Automation Specialist & Creative Designer"
+    company: "Company Name"
+    startDate: "March 2021"
+    endDate: "Present"
+    responsibilities:
+      - "Developed process automation workflows using Python and Zapier."
+      - "Designed UI/UX prototypes and graphic materials for marketing campaigns."
+  - jobTitle: "Intern"
+    company: "Federal Teaching Hospital, Lokoja"
+    startDate: "January 2018"
+    endDate: "June 2018"
+    responsibilities:
+      - "Researched and maintained radiology equipment for accurate diagnostics."
+
+skills:
+  technical:
+    - "Python"
+    - "JavaScript"
+    - "Rust"
+    - "spaCy (en_core_web_trf)"
+    - "HTML/CSS"
+    - "Process Automation"
+  creative:
+    - "Adobe Photoshop"
+    - "Figma"
+    - "Canva"
+  other:
+    - "Project Management"
+    - "Team Collaboration"
+
+certifications:
+  - "Certified Python Developer - Python Institute"
+  - "Adobe Creative Suite Certification"
+
+languages:
+  - "English (Fluent)"
+  - "French (Intermediate)"
+
+projects:
+  - title: "Portfolio Website"
+    description: "Designed and developed a personal portfolio showcasing projects in automation, design, and web development."
+    link: "https://yourportfolio.com"
+  - title: "AI Chatbot"
+    description: "Built an intelligent chatbot using Hugging Face's Transformers and spaCy for NLP tasks."
+    link: "https://github.com/yourgithubusername/ai-chatbot"
